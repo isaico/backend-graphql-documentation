@@ -1,6 +1,6 @@
 ## hola ramiro aca te dejo los comandos para el graphiQL asi es mas facil solo copias y pegas
 ## tene en cuenta a la hora de iniciar el server con el comando "npm run dev" para observar al server basado en graphQL
-<!-- 
+
  query{
    getProducts{
      nombre,
@@ -40,5 +40,5 @@
      nombre,
      _id
    }
- } -->
+ }
  eso es para los productos, es lo mismo para el tema del cart etc...pero bueno creo con esto es suficiente creo yo, cualquier cosa me escribis saludos!
