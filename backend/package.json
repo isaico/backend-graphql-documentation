@@ -1,0 +1,32 @@
+{
+  "name": "PROYECTOFINAL2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha index.test.js",
+    "start": "nodemon --inspect ./app.js",
+    "leer": "node app.js --cmd buscar",
+    "escribir": "node app.js --cmd agregar --nombre Parlante  --descripcion description --precio 55.55 --foto http://someurl.com --stock 99",
+    "borrar": "node app.js --cmd borrar",
+    "api": "node ./test.js",
+    "dev":"nodemon --inspect ./graphQLServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.3.0",
+    "minimist": "^1.2.6",
+    "mongoose": "^6.3.1",
+    "uuidv4": "^6.2.13"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0"
+  }
+}
